@@ -73,7 +73,7 @@ public class Scientific_Calculator {
     public double sq_root(double num) {
         if(num < 0){
             logger.error("[ERROR - SQRT] - square root function is given -ve number");
-            return -1f;
+            return -1;
         }
         double result;
         result = Math.sqrt(num);
