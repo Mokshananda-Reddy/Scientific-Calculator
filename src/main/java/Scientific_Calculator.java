@@ -1,11 +1,19 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Scanner;
 
 public class Scientific_Calculator {
+
+    private static Logger logger = LogManager.getLogger(Scientific_Calculator.class);
 
     public static void main(String args[])
     {
         Scientific_Calculator calculator = new Scientific_Calculator();
         Scanner myObj = new Scanner(System.in);
+
+
+
         System.out.println("The user has started the Scientific Calculator");
 
         double result = 0;
@@ -63,24 +71,41 @@ public class Scientific_Calculator {
     }
 
     public double sq_root(double num) {
-
+        if(num < 0){
+            logger.error("[ERROR - SQRT] - square root function is given -ve number");
+            return -1f;
+        }
         double result;
         result = Math.sqrt(num);
+        logger.info("[SQRT] - " + num);
+        logger.info("[RESULT - SQRT] - " + result);
         return result;
     }
 
     public double fact(double num) {
-
+        if(num < 0){
+            logger.error("[ERROR - FACTORIAL] - factorial function does not work with -ve number");
+            return -1;
+        }
+        double result;
         if (num == 0)
-            return 1;
+            result = 1;
         else
-            return(num * fact(num-1));
+            result = (num * fact(num-1));
+        logger.info("[FACTORIAL] - " + num);
+        logger.info("[RESULT - FACTORIAL] - " + result);
+        return result;
     }
 
     public double nlog(double num) {
-
+        if(num < 0){
+            logger.error("[ERROR - LOG] - natural log function does not work with -ve number");
+            return -1;
+        }
         double result;
         result = Math.log(num);
+        logger.info("[LOG] - " + num);
+        logger.info("[RESULT - LOG] - " + result);
         return result;
     }
 
@@ -88,6 +113,8 @@ public class Scientific_Calculator {
 
         double result;
         result = Math.pow(x,y);
+        logger.info("[POWER] - " + x + ", " + y);
+        logger.info("[RESULT - POWER] - " + result);
         return result;
     }
 }
