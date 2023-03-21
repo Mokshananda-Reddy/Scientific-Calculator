@@ -22,7 +22,7 @@ public class Calculator_Test {
     }
     @Test
     public void  test_Factorial2(){
-        var result = calculator.sq_root(-5);
+        var result = calculator.fact(-5);
 
         Assertions.assertEquals(-1,result,0.0f);
     }

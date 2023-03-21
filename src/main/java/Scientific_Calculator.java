@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Scientific_Calculator {
 
-    private static Logger logger = LogManager.getLogger(Scientific_Calculator.class);
+    private final static Logger logger = LogManager.getLogger(Scientific_Calculator.class);
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         Scientific_Calculator calculator = new Scientific_Calculator();
         Scanner myObj = new Scanner(System.in);
@@ -59,7 +59,6 @@ public class Scientific_Calculator {
             else if(key == 5)
             {
                 System.out.println("The user has closed the Scientific Calculator");
-                exit = true;
                 break;
             }
         }
