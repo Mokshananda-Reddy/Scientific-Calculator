@@ -1,13 +1,13 @@
-21/03/2023:11:04:06 680 [Scientific_Calculator.java] [INFO] Scientific_Calculator [SQRT] - 4.0
-21/03/2023:11:04:06 686 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - SQRT] - 2.0
-21/03/2023:11:04:06 689 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - SQRT] - square root function is given -ve number
-21/03/2023:11:04:06 690 [Scientific_Calculator.java] [INFO] Scientific_Calculator [FACTORIAL] - 5.0
-21/03/2023:11:04:06 691 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - FACTORIAL] - 120
-21/03/2023:11:04:06 692 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - SQRT] - square root function is given -ve number
-21/03/2023:11:04:06 693 [Scientific_Calculator.java] [INFO] Scientific_Calculator [LOG] - 3.0
-21/03/2023:11:04:06 694 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - LOG] - 1.0986122886681098
-21/03/2023:11:04:06 695 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - LOG] - natural log function does not work with -ve number
-21/03/2023:11:04:06 703 [Scientific_Calculator.java] [INFO] Scientific_Calculator [POWER] - 5.0, 2.0
-21/03/2023:11:04:06 704 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - POWER] - 25.0
-21/03/2023:11:04:06 704 [Scientific_Calculator.java] [INFO] Scientific_Calculator [POWER] - 2.0, -1.0
-21/03/2023:11:04:06 705 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - POWER] - 0.5
+21/03/2023:11:18:58 865 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - LOG] - natural log function does not work with -ve number
+21/03/2023:11:18:58 884 [Scientific_Calculator.java] [INFO] Scientific_Calculator [POWER] - 5.0, 2.0
+21/03/2023:11:18:58 886 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - POWER] - 25.0
+21/03/2023:11:18:58 887 [Scientific_Calculator.java] [INFO] Scientific_Calculator [POWER] - 2.0, -1.0
+21/03/2023:11:18:58 888 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - POWER] - 0.5
+21/03/2023:11:18:58 889 [Scientific_Calculator.java] [INFO] Scientific_Calculator [FACTORIAL] - 5.0
+21/03/2023:11:18:58 890 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - FACTORIAL] - 120
+21/03/2023:11:18:58 891 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - FACTORIAL] - factorial function does not work with -ve number
+21/03/2023:11:18:58 892 [Scientific_Calculator.java] [INFO] Scientific_Calculator [LOG] - 3.0
+21/03/2023:11:18:58 893 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - LOG] - 1.0986122886681098
+21/03/2023:11:18:58 894 [Scientific_Calculator.java] [INFO] Scientific_Calculator [SQRT] - 4.0
+21/03/2023:11:18:58 895 [Scientific_Calculator.java] [INFO] Scientific_Calculator [RESULT - SQRT] - 2.0
+21/03/2023:11:18:58 896 [Scientific_Calculator.java] [ERROR] Scientific_Calculator [ERROR - SQRT] - square root function is given -ve number
