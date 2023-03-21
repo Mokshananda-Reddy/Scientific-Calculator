@@ -12,15 +12,12 @@ public class Scientific_Calculator {
         Scientific_Calculator calculator = new Scientific_Calculator();
         Scanner myObj = new Scanner(System.in);
 
-
-
         System.out.println("The user has started the Scientific Calculator");
 
         double result = 0;
         boolean exit = false;
         while(!exit)
         {
-
             System.out.println("Enter the key number for the operation."+'\n'+"  The following is index 1: Square Root, 2: Factorial, 3: Natural Log, 4: Power, 5: Exit the calculator");
             int key = myObj.nextInt();
 
@@ -65,9 +62,7 @@ public class Scientific_Calculator {
                 exit = true;
                 break;
             }
-
         }
-
     }
 
     public double sq_root(double num) {
@@ -87,11 +82,10 @@ public class Scientific_Calculator {
             logger.error("[ERROR - FACTORIAL] - factorial function does not work with -ve number");
             return -1;
         }
-        double result;
-        if (num == 0)
-            result = 1;
-        else
-            result = (num * fact(num-1));
+        int result = 1;
+        for(int i = 1; i <= num; i++){
+            result = result * i;
+        }
         logger.info("[FACTORIAL] - " + num);
         logger.info("[RESULT - FACTORIAL] - " + result);
         return result;
