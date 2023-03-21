@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-public class Calculator_Test {
+public class CalculatorTest {
     private final Scientific_Calculator calculator = new Scientific_Calculator();
     @Test
     public void  test_Square_root(){
