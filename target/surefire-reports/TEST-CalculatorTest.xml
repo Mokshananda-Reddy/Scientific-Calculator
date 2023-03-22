@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="CalculatorTest" time="0.032" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="CalculatorTest" time="0.033" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Ubuntu-0ubuntu122.04"/>
@@ -60,16 +60,16 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root3" time="0.012"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial" time="0.002"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial2" time="0"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root" time="0.002"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root2" time="0"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial3" time="0.001"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log" time="0.003"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log2" time="0"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log3" time="0.001"/>
-  <testcase classname="CalculatorTest" name="CalculatorTest.test_Power" time="0.008"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial2" time="0.008"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root3" time="0.004"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log3" time="0.002"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Power" time="0.007"/>
   <testcase classname="CalculatorTest" name="CalculatorTest.test_Power2" time="0.002"/>
   <testcase classname="CalculatorTest" name="CalculatorTest.test_Power3" time="0.001"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root" time="0.001"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Square_root2" time="0"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial" time="0.005"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Factorial3" time="0.001"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log" time="0.001"/>
+  <testcase classname="CalculatorTest" name="CalculatorTest.test_Natural_Log2" time="0.001"/>
 </testsuite>
