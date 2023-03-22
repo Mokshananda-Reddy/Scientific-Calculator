@@ -6,3 +6,5 @@
             docker_image:
                   name: mokshanandareddy/scientific_calculator 
                   source: pull
+          - name : Running container
+            shell: docker run -it -d mokshanandareddy/scientific_calculator
